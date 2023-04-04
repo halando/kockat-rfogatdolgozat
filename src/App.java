@@ -33,12 +33,13 @@ public class App extends Application {
         
         
         VBox vbox = new VBox();
-        HBox hbox = new HBox();
+        HBox hbox = new HBox(); 
         HBox titlehbox = new HBox();
         HBox asidehbox = new HBox();
         HBox dtesthbox = new HBox();
         HBox volumehbox = new HBox();
         HBox buttonhbox = new HBox();
+        Label label2 = new Label("Andó Attila, szoft/I/1/n, 2023-04-04\n");
 
         Label titleLabel = new Label("Kocka térfogatszámítás");
         titlehbox.getChildren().add(titleLabel);
@@ -69,7 +70,7 @@ public class App extends Application {
         calcButton.setOnAction(e -> {
            startCalcArea();
         });
-
+        
         
         vbox.getChildren().add(titlehbox);
         vbox.getChildren().add(asidehbox);
